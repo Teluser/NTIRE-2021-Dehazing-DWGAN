@@ -9,8 +9,8 @@ import os
 import time
 import re
 parser = argparse.ArgumentParser(description='Dehaze')
-parser.add_argument('--test_dir', type=str, default='./Please load your hazy image path/')
-parser.add_argument('--output_dir', type=str, default='./output_result/')
+parser.add_argument('--test_dir', type=str, default='/content/drive/MyDrive/Test_DehazeGAN_with_yolo/Fog/Fog')
+parser.add_argument('--output_dir', type=str, default='/content/dehaze_img')
 parser.add_argument('-test_batch_size', help='Set the testing batch size', default=1, type=int)
 args = parser.parse_args()
 
